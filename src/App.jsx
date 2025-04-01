@@ -10,7 +10,7 @@ const App = () => {
   const [direction, setDirection] = useState("bidirectional");          // State to keep track of the selected direction for highlighting
   const [isDirectDeps, setIsDirectDeps] = useState(false);              // State to keep track of the selected direct dependencies
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);  // State to keep track of the sidebar collapse state
-  const url = "http://mhajny-pc:4000/";
+  const url = "server_url";
 
   // Set selected DOT file & Create GET request to the server
   const handleFileSelect = (file) => {
