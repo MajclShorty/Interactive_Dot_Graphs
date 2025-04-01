@@ -10,7 +10,7 @@ const FileList = ({ onFileSelect, selectedFile, onDirectionChange, onToggleDirec
   const [isDirectDeps, setIsDirectDeps] = useState(false);      // State to keep track of the selected direct dependencies
   const [err, setErr] = useState(null);                         // State to keep track of the error message
   const [fileSearchTerm, setFileSearchTerm] = useState("");
-  const url = "http://mhajny-pc:4000/";
+  const url = "server_url";
 
   // Recieve value from search input & Update search term
   const handleFileSearch = (event) => {
