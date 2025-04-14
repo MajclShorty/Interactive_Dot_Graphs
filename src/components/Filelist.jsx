@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { unFadeSearchResults, resetSearchFading } from "../utils/search";
-import logo from "../img/navertica_logo.png";
+import logo from "...logo_path";
 
 const FileList = ({ onFileSelect, selectedFile, onDirectionChange, onToggleDirectDeps }) => {
   const [files, setFiles] = useState([]);                       // State to keep track of the list of DOT files
